@@ -3,6 +3,7 @@ name: Upload to S3
 # トリガー
 #-------------------------#
 on:
+  workflow_dispatch:
   #-- mainブランチにpushされたら起動する --#
   push:
       branches:
